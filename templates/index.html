@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    {% if message %}
+        <div class="alert alert-primary border text-center" role="alert">
+            {{ message }}
+        </div>
+    {% endif %}
+    <div class="text-center">
+        <h1>Welcome to the Success Page!</h1>
+        <p>Please add more content...</p>
+    </div>
+{% endblock %}
