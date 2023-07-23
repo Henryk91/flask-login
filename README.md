@@ -23,3 +23,14 @@ To run the app:
 ```
 python3 ./app.py  
 ```
+
+A test version of the app is hosted on [repl](https://flask-login.henryk91.repl.co/)
+
+With 2 sets of test login details that can be changed in mock_data.py:
+
+1. 
+    - Email: test1@test.com
+    - Password: first-pass
+2. 
+    - Email: test2@test.com
+    - Password: another-pass
